@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients("com.mpaiement")
+@EnableDiscoveryClient
 public class MpaiementApplication {
 
 	public static void main(String[] args) {
